@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e696b63.chunk.css",
-    "main.js": "/static/js/main.416ecc50.chunk.js",
-    "main.js.map": "/static/js/main.416ecc50.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c7601cca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c7601cca.js.map",
+    "main.css": "/static/css/main.b5115c48.chunk.css",
+    "main.js": "/static/js/main.b65ab207.chunk.js",
+    "main.js.map": "/static/js/main.b65ab207.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1ae556ee.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1ae556ee.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.6119f2b5.chunk.js": "/static/js/2.6119f2b5.chunk.js",
-    "static/js/2.6119f2b5.chunk.js.map": "/static/js/2.6119f2b5.chunk.js.map",
-    "static/js/3.b8f9e57d.chunk.js": "/static/js/3.b8f9e57d.chunk.js",
-    "static/js/3.b8f9e57d.chunk.js.map": "/static/js/3.b8f9e57d.chunk.js.map",
+    "static/js/2.26db00ac.chunk.js": "/static/js/2.26db00ac.chunk.js",
+    "static/js/2.26db00ac.chunk.js.map": "/static/js/2.26db00ac.chunk.js.map",
+    "static/js/3.21f4fa20.chunk.js": "/static/js/3.21f4fa20.chunk.js",
+    "static/js/3.21f4fa20.chunk.js.map": "/static/js/3.21f4fa20.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d0fdb7d3.chunk.css.map": "/static/css/2.d0fdb7d3.chunk.css.map",
-    "static/css/main.3e696b63.chunk.css.map": "/static/css/main.3e696b63.chunk.css.map",
-    "static/js/2.6119f2b5.chunk.js.LICENSE.txt": "/static/js/2.6119f2b5.chunk.js.LICENSE.txt",
+    "static/css/main.b5115c48.chunk.css.map": "/static/css/main.b5115c48.chunk.css.map",
+    "static/js/2.26db00ac.chunk.js.LICENSE.txt": "/static/js/2.26db00ac.chunk.js.LICENSE.txt",
     "static/media/1-Կոմիտասի դիմանկարը, Կահիրե, հունիս, 1911.a0d14c28.jpg": "/static/media/1-Կոմիտասի դիմանկարը, Կահիրե, հունիս, 1911.a0d14c28.jpg",
     "static/media/10-Դմիտրի Նալբանդյան, Վերնատուն, 1974-76.61ea7989.jpg": "/static/media/10-Դմիտրի Նալբանդյան, Վերնատուն, 1974-76.61ea7989.jpg",
     "static/media/11-2 Գ. Խանջյան, Առաջին երգը (Պ. Սևակի «Անլռելի զանգակատուն» գրքի նկարազարդում), 1963-65.3da45c6d.jpg": "/static/media/11-2 Գ. Խանջյան, Առաջին երգը (Պ. Սևակի «Անլռելի զանգակատուն» գրքի նկարազարդում), 1963-65.3da45c6d.jpg",
@@ -58,10 +58,10 @@
     "static/media/Կոմիտաս Վարդապետ Հով արեք սարեր ջան.66c5561e.mp3": "/static/media/Կոմիտաս Վարդապետ Հով արեք սարեր ջան.66c5561e.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7601cca.js",
+    "static/js/runtime-main.1ae556ee.js",
     "static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.6119f2b5.chunk.js",
-    "static/css/main.3e696b63.chunk.css",
-    "static/js/main.416ecc50.chunk.js"
+    "static/js/2.26db00ac.chunk.js",
+    "static/css/main.b5115c48.chunk.css",
+    "static/js/main.b65ab207.chunk.js"
   ]
 }
