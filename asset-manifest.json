@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4777df7f.chunk.css",
+    "main.css": "/static/css/main.3e696b63.chunk.css",
     "main.js": "/static/js/main.416ecc50.chunk.js",
     "main.js.map": "/static/js/main.416ecc50.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7601cca.js",
@@ -12,7 +12,7 @@
     "static/js/3.b8f9e57d.chunk.js.map": "/static/js/3.b8f9e57d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d0fdb7d3.chunk.css.map": "/static/css/2.d0fdb7d3.chunk.css.map",
-    "static/css/main.4777df7f.chunk.css.map": "/static/css/main.4777df7f.chunk.css.map",
+    "static/css/main.3e696b63.chunk.css.map": "/static/css/main.3e696b63.chunk.css.map",
     "static/js/2.6119f2b5.chunk.js.LICENSE.txt": "/static/js/2.6119f2b5.chunk.js.LICENSE.txt",
     "static/media/1-Կոմիտասի դիմանկարը, Կահիրե, հունիս, 1911.a0d14c28.jpg": "/static/media/1-Կոմիտասի դիմանկարը, Կահիրե, հունիս, 1911.a0d14c28.jpg",
     "static/media/10-Դմիտրի Նալբանդյան, Վերնատուն, 1974-76.61ea7989.jpg": "/static/media/10-Դմիտրի Նալբանդյան, Վերնատուն, 1974-76.61ea7989.jpg",
@@ -61,7 +61,7 @@
     "static/js/runtime-main.c7601cca.js",
     "static/css/2.d0fdb7d3.chunk.css",
     "static/js/2.6119f2b5.chunk.js",
-    "static/css/main.4777df7f.chunk.css",
+    "static/css/main.3e696b63.chunk.css",
     "static/js/main.416ecc50.chunk.js"
   ]
 }
