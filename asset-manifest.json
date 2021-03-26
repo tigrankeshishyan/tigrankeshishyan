@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tigrankeshishyan/static/css/main.b5115c48.chunk.css",
-    "main.js": "/tigrankeshishyan/static/js/main.b65ab207.chunk.js",
-    "main.js.map": "/tigrankeshishyan/static/js/main.b65ab207.chunk.js.map",
+    "main.js": "/tigrankeshishyan/static/js/main.24cbeb75.chunk.js",
+    "main.js.map": "/tigrankeshishyan/static/js/main.24cbeb75.chunk.js.map",
     "runtime-main.js": "/tigrankeshishyan/static/js/runtime-main.c9db674f.js",
     "runtime-main.js.map": "/tigrankeshishyan/static/js/runtime-main.c9db674f.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/tigrankeshishyan/static/css/2.d0fdb7d3.chunk.css",
@@ -37,12 +37,11 @@
     "static/media/angel-bird.6514e5c5.png": "/tigrankeshishyan/static/media/angel-bird.6514e5c5.png",
     "static/media/biker-boy.de41d187.png": "/tigrankeshishyan/static/media/biker-boy.de41d187.png",
     "static/media/flower.f22e6f2f.png": "/tigrankeshishyan/static/media/flower.f22e6f2f.png",
-    "static/media/gangsta-sticker.19456a58.png": "/tigrankeshishyan/static/media/gangsta-sticker.19456a58.png",
     "static/media/heart.30a57164.webp": "/tigrankeshishyan/static/media/heart.30a57164.webp",
     "static/media/kitty.1917fd9a.png": "/tigrankeshishyan/static/media/kitty.1917fd9a.png",
     "static/media/komitas-institut.e09bed27.jpeg": "/tigrankeshishyan/static/media/komitas-institut.e09bed27.jpeg",
     "static/media/loved-brunette.8f3a2298.png": "/tigrankeshishyan/static/media/loved-brunette.8f3a2298.png",
-    "static/media/loved.f45abc87.png": "/tigrankeshishyan/static/media/loved.f45abc87.png",
+    "static/media/paper.f7aad1df.png": "/tigrankeshishyan/static/media/paper.f7aad1df.png",
     "static/media/penguin-bear.083c21a3.png": "/tigrankeshishyan/static/media/penguin-bear.083c21a3.png",
     "static/media/piano-cat.3f47f428.webp": "/tigrankeshishyan/static/media/piano-cat.3f47f428.webp",
     "static/media/questiony-dog.519ecc4b.png": "/tigrankeshishyan/static/media/questiony-dog.519ecc4b.png",
@@ -50,11 +49,12 @@
     "static/media/rainbow-with-stars.5c1f893b.png": "/tigrankeshishyan/static/media/rainbow-with-stars.5c1f893b.png",
     "static/media/rainy-cloud.6020e6c4.png": "/tigrankeshishyan/static/media/rainy-cloud.6020e6c4.png",
     "static/media/red-apple.7b750c0e.png": "/tigrankeshishyan/static/media/red-apple.7b750c0e.png",
+    "static/media/sleepy-bee.2ba9e78c.png": "/tigrankeshishyan/static/media/sleepy-bee.2ba9e78c.png",
     "static/media/sun.d4166d3d.png": "/tigrankeshishyan/static/media/sun.d4166d3d.png",
-    "static/media/take-heart.36134c76.png": "/tigrankeshishyan/static/media/take-heart.36134c76.png",
     "static/media/tree.98161cf5.png": "/tigrankeshishyan/static/media/tree.98161cf5.png",
     "static/media/two-cherries.990cae51.png": "/tigrankeshishyan/static/media/two-cherries.990cae51.png",
     "static/media/violin-love-player.7b3c290f.png": "/tigrankeshishyan/static/media/violin-love-player.7b3c290f.png",
+    "static/media/warrior-penguin.11516b61.png": "/tigrankeshishyan/static/media/warrior-penguin.11516b61.png",
     "static/media/Կոմիտաս Վարդապետ Հով արեք սարեր ջան.66c5561e.mp3": "/tigrankeshishyan/static/media/Կոմիտաս Վարդապետ Հով արեք սարեր ջան.66c5561e.mp3"
   },
   "entrypoints": [
@@ -62,6 +62,6 @@
     "static/css/2.d0fdb7d3.chunk.css",
     "static/js/2.26db00ac.chunk.js",
     "static/css/main.b5115c48.chunk.css",
-    "static/js/main.b65ab207.chunk.js"
+    "static/js/main.24cbeb75.chunk.js"
   ]
 }
