@@ -99,7 +99,7 @@ Edit the data in `src/data/portfolio.ts`:
 
 ### Replace CV
 
-Replace `public/cv.pdf` with your actual CV file.
+Replace `public/Tigran_Keshishyan_CV.pdf` with your actual CV file.
 
 ### Update Favicon and Images
 
@@ -142,7 +142,7 @@ colors: {
 │   └── data/
 │       └── portfolio.ts     # Portfolio data
 ├── public/
-│   └── cv.pdf              # CV file
+│   └── Tigran_Keshishyan_CV.pdf              # CV file
 ├── next.config.js          # Next.js configuration
 ├── tailwind.config.js      # Tailwind configuration
 └── package.json            # Dependencies

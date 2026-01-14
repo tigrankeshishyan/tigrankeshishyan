@@ -71,7 +71,7 @@ export default function Navigation() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-md'
           : 'bg-transparent'
       }`}

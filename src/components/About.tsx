@@ -9,7 +9,7 @@ export default function About() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
+    <section id="about" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800/50">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           ref={ref}
@@ -17,11 +17,11 @@ export default function About() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8 md:mb-12 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 md:mb-8 text-center">
             About Me
           </h2>
 
-          <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed space-y-6">
+          <div className="prose prose-sm sm:prose-base md:prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 leading-relaxed space-y-6 px-2 sm:px-0">
             <p>
               As a Senior Software Engineer with over 8 years of experience, I specialize in building scalable, 
               high-performance web applications using modern frontend technologies. My expertise lies in React, 

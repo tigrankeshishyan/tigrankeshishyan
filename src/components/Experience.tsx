@@ -16,7 +16,7 @@ export default function Experience() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+    <section id="experience" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <motion.div
           ref={ref}
@@ -24,7 +24,7 @@ export default function Experience() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-12 md:mb-16 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8 md:mb-10 text-center">
             Experience
           </h2>
 
@@ -48,23 +48,23 @@ export default function Experience() {
                     }}
                   />
 
-                  <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-6 md:p-8 border border-gray-200 dark:border-gray-700">
-                    <div className="flex flex-col md:items-start">
-                      <span className="text-sm font-semibold text-primary-light dark:text-primary-dark mb-2">
+                  <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-4 sm:p-6 md:p-8 border border-gray-200 dark:border-gray-700">
+                    <div className="flex flex-col items-start">
+                      <span className="text-xs sm:text-sm font-semibold text-primary-light dark:text-primary-dark mb-2">
                         {formatDate(exp.startDate)} - {formatDate(exp.endDate)}
                       </span>
-                      <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
+                      <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white mb-1">
                         {exp.role}
                       </h3>
-                      <h4 className="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-4">
+                      <h4 className="text-base sm:text-lg font-semibold text-gray-600 dark:text-gray-400 mb-4">
                         {exp.company} {exp.location && `• ${exp.location}`}
                       </h4>
                     </div>
 
-                    <ul className="space-y-2 mb-4 text-gray-700 dark:text-gray-300 text-left">
+                    <ul className="space-y-2 mb-4 text-sm sm:text-base text-gray-700 dark:text-gray-300 text-left">
                       {exp.highlights.map((highlight, i) => (
                         <li key={i} className="flex items-start">
-                          <span className="text-primary-light dark:text-primary-dark mr-2 mt-1">•</span>
+                          <span className="text-primary-light dark:text-primary-dark mr-2 mt-0.5 flex-shrink-0">•</span>
                           <span>{highlight}</span>
                         </li>
                       ))}
@@ -75,7 +75,7 @@ export default function Experience() {
                         {exp.technologies.map((tech) => (
                           <span
                             key={tech}
-                            className="px-3 py-1 text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full"
+                            className="px-2 sm:px-3 py-1 text-xs sm:text-sm bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full"
                           >
                             {tech}
                           </span>

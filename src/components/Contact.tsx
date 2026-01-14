@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-4xl">
         <motion.div
           ref={ref}
@@ -35,53 +35,53 @@ export default function Contact() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-12 md:mb-16 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8 md:mb-10 text-center">
             Get In Touch
           </h2>
 
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-8 md:p-12 border border-gray-200 dark:border-gray-700">
             <div className="space-y-6">
               {/* Email */}
-              <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 gap-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                <div className="flex items-center space-x-4 min-w-0">
+                  <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-primary-light dark:text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                    <a href={`mailto:${contactInfo.email}`} className="text-gray-900 dark:text-white font-medium hover:text-primary-light dark:hover:text-primary-dark transition-colors">
+                    <a href={`mailto:${contactInfo.email}`} className="text-gray-900 dark:text-white font-medium hover:text-primary-light dark:hover:text-primary-dark transition-colors break-all">
                       {contactInfo.email}
                     </a>
                   </div>
                 </div>
                 <button
                   onClick={() => copyToClipboard(contactInfo.email, 'email')}
-                  className="px-4 py-2 text-sm font-semibold text-primary-light dark:text-primary-dark hover:bg-primary-light/10 dark:hover:bg-primary-dark/10 rounded-lg transition-colors"
+                  className="px-4 py-2 text-sm font-semibold text-primary-light dark:text-primary-dark hover:bg-primary-light/10 dark:hover:bg-primary-dark/10 rounded-lg transition-colors w-full sm:w-auto"
                 >
                   {copiedEmail ? 'Copied!' : 'Copy'}
                 </button>
               </div>
 
               {/* Phone */}
-              <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 gap-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
+                <div className="flex items-center space-x-4 min-w-0">
+                  <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <svg className="w-6 h-6 text-primary-light dark:text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
-                  <div>
+                  <div className="min-w-0">
                     <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                    <a href={`tel:${contactInfo.phone}`} className="text-gray-900 dark:text-white font-medium hover:text-primary-light dark:hover:text-primary-dark transition-colors">
+                    <a href={`tel:${contactInfo.phone}`} className="text-gray-900 dark:text-white font-medium hover:text-primary-light dark:hover:text-primary-dark transition-colors break-all">
                       {contactInfo.phone}
                     </a>
                   </div>
                 </div>
                 <button
                   onClick={() => copyToClipboard(contactInfo.phone, 'phone')}
-                  className="px-4 py-2 text-sm font-semibold text-primary-light dark:text-primary-dark hover:bg-primary-light/10 dark:hover:bg-primary-dark/10 rounded-lg transition-colors"
+                  className="px-4 py-2 text-sm font-semibold text-primary-light dark:text-primary-dark hover:bg-primary-light/10 dark:hover:bg-primary-dark/10 rounded-lg transition-colors w-full sm:w-auto"
                 >
                   {copiedPhone ? 'Copied!' : 'Copy'}
                 </button>
