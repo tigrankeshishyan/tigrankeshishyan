@@ -31,7 +31,7 @@ export default function Hero() {
           >
             <div className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary-light dark:border-primary-dark shadow-2xl">
               <Image
-                src="/profile_pic.jpg"
+                src="/tigrankeshishyan/Tigran_Keshishayn_profile_pic.jpg"
                 alt={contactInfo.name}
                 fill
                 className="object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
@@ -75,8 +75,9 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center w-full max-w-2xl mx-auto px-4 sm:px-2"
           >
             <a
-              href="/Tigran_Keshishyan_CV.pdf"
-              download
+              href="/tigrankeshishyan/Tigran_Keshishyan_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 text-base sm:text-lg font-semibold text-white bg-primary-light dark:bg-primary-dark rounded-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto"
             >
               Download CV
