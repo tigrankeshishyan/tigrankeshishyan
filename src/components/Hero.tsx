@@ -75,7 +75,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center w-full max-w-2xl mx-auto px-4 sm:px-2"
           >
             <a
-              href="/tigrankeshishyan/Tigran_Keshishyan_CV_Updated.pdf"
+              href="/tigrankeshishyan/Tigran_Keshishyan_Updated_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 text-base sm:text-lg font-semibold text-white bg-primary-light dark:bg-primary-dark rounded-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto"
