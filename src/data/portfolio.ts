@@ -1,7 +1,6 @@
 export interface Experience {
   company: string;
   role: string;
-  location?: string;
   startDate: string;
   endDate: string;
   highlights: string[];
@@ -17,7 +16,6 @@ export const experiences: Experience[] = [
   {
     company: "High Sky Technologies",
     role: "Senior Software Engineer",
-    location: "Dubai",
     startDate: "2023-05",
     endDate: "Present",
     highlights: [
@@ -30,7 +28,6 @@ export const experiences: Experience[] = [
   {
     company: "EPAM Systems",
     role: "Senior Software Engineer",
-    location: "Poland, Krakow",
     startDate: "2021-02",
     endDate: "2024-09",
     highlights: [
@@ -44,7 +41,6 @@ export const experiences: Experience[] = [
   {
     company: "Armenian National Music (ANM)",
     role: "Co-Founder, CEO",
-    location: "Armenia",
     startDate: "2013-05",
     endDate: "Present",
     highlights: [
@@ -57,7 +53,6 @@ export const experiences: Experience[] = [
   {
     company: "Wylling LLC",
     role: "Co-Founder, CEO",
-    location: "Armenia",
     startDate: "2020-09",
     endDate: "2022-03",
     highlights: [
@@ -69,7 +64,6 @@ export const experiences: Experience[] = [
   {
     company: "Dark Matter",
     role: "Senior Front-end Engineer",
-    location: "Armenia",
     startDate: "2018-11",
     endDate: "2020-12",
     highlights: [
@@ -81,7 +75,6 @@ export const experiences: Experience[] = [
   {
     company: "XYB",
     role: "Senior Front-end Engineer (contract)",
-    location: "Armenia",
     startDate: "2018-05",
     endDate: "2018-10",
     highlights: [
@@ -92,7 +85,6 @@ export const experiences: Experience[] = [
   {
     company: "ApolloBytes",
     role: "Senior Front-end Engineer, Team Lead, Scrum Master",
-    location: "Armenia",
     startDate: "2016-11",
     endDate: "2018-11",
     highlights: [
@@ -104,7 +96,6 @@ export const experiences: Experience[] = [
   {
     company: "Microsoft Innovation Center of Armenia",
     role: "Tutor of web programming",
-    location: "Armenia",
     startDate: "2016-11",
     endDate: "2017-06",
     highlights: [
@@ -115,7 +106,6 @@ export const experiences: Experience[] = [
   {
     company: "PicsArt",
     role: "Junior AngularJS Developer",
-    location: "Armenia",
     startDate: "2016-05",
     endDate: "2016-12",
     highlights: [
@@ -126,7 +116,6 @@ export const experiences: Experience[] = [
   {
     company: "TreeScale",
     role: "Junior ReactJS Developer",
-    location: "Armenia",
     startDate: "2016-03",
     endDate: "2016-05",
     highlights: [
@@ -146,8 +135,6 @@ export const languages: Language[] = [
 export const contactInfo = {
   name: "Tigran Keshishyan",
   title: "Senior Software Engineer",
-  location: "Dubai, United Arab Emirates",
-  phone: "+971585859310",
   email: "tigrankeshishyan1@gmail.com",
   linkedin: "https://linkedin.com/in/tigran-keshishyan",
   github: "https://github.com/tigrankeshishyan"

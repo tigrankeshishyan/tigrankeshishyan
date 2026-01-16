@@ -57,7 +57,7 @@ export default function Experience() {
                         {exp.role}
                       </h3>
                       <h4 className="text-base sm:text-lg font-semibold text-gray-600 dark:text-gray-400 mb-4">
-                        {exp.company} {exp.location && `• ${exp.location}`}
+                        {exp.company}
                       </h4>
                     </div>
 
