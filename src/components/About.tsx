@@ -30,21 +30,21 @@ export default function About() {
             </p>
 
             <p>
-              Throughout my career, I've successfully led UI development initiatives, mentored junior developers, 
-              and improved engineering processes across multiple organizations. I'm passionate about optimizing 
+              Throughout my career, I&apos;ve successfully led UI development initiatives, mentored junior developers, 
+              and improved engineering processes across multiple organizations. I&apos;m passionate about optimizing 
               application performance, implementing best practices, and creating exceptional user experiences.
             </p>
 
             <p>
-              Currently based in Dubai, I bring a unique blend of technical excellence and leadership experience, 
+              Currently based in Dubai, I&apos;m bring a unique blend of technical excellence and leadership experience, 
               having worked with global companies like EPAM Systems and led teams in building complex enterprise 
-              applications. I'm also an entrepreneur, co-founding Armenian National Music to preserve and digitalize 
+              applications. I&apos;m also an entrepreneur, co-founding Armenian National Music to preserve and digitalize 
               Armenian cultural heritage.
             </p>
 
             <p>
-              Beyond coding, I'm committed to knowledge sharing—having tutored web programming courses and served 
-              as a certified interviewer. I thrive in collaborative environments where I can contribute to both 
+              Beyond coding, I&apos;m committed to knowledge sharing—having tutored web programming courses and served 
+              as a certified interviewer. I&apos;m thrive in collaborative environments where I can contribute to both 
               technical innovation and team growth.
             </p>
           </div>
