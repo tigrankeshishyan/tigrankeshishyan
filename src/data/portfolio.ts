@@ -146,8 +146,6 @@ export const languages: Language[] = [
 export const contactInfo = {
   name: "Tigran Keshishyan",
   title: "Senior Software Engineer",
-  location: "Dubai, United Arab Emirates",
-  phone: "+971585859310",
   email: "tigrankeshishyan1@gmail.com",
   linkedin: "https://linkedin.com/in/tigran-keshishyan",
   github: "https://github.com/tigrankeshishyan"

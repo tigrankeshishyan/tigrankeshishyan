@@ -9,17 +9,13 @@ export default function Contact() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [copiedEmail, setCopiedEmail] = useState(false);
-  const [copiedPhone, setCopiedPhone] = useState(false);
 
-  const copyToClipboard = async (text: string, type: 'email' | 'phone') => {
+  const copyToClipboard = async (text: string, type: 'email') => {
     try {
       await navigator.clipboard.writeText(text);
       if (type === 'email') {
         setCopiedEmail(true);
         setTimeout(() => setCopiedEmail(false), 2000);
-      } else {
-        setCopiedPhone(true);
-        setTimeout(() => setCopiedPhone(false), 2000);
       }
     } catch (err) {
       console.error('Failed to copy:', err);
@@ -62,43 +58,6 @@ export default function Contact() {
                 >
                   {copiedEmail ? 'Copied!' : 'Copy'}
                 </button>
-              </div>
-
-              {/* Phone */}
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-4 gap-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
-                <div className="flex items-center space-x-4 min-w-0">
-                  <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center flex-shrink-0">
-                    <svg className="w-6 h-6 text-primary-light dark:text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Phone</p>
-                    <a href={`tel:${contactInfo.phone}`} className="text-gray-900 dark:text-white font-medium hover:text-primary-light dark:hover:text-primary-dark transition-colors break-all">
-                      {contactInfo.phone}
-                    </a>
-                  </div>
-                </div>
-                <button
-                  onClick={() => copyToClipboard(contactInfo.phone, 'phone')}
-                  className="px-4 py-2 text-sm font-semibold text-primary-light dark:text-primary-dark hover:bg-primary-light/10 dark:hover:bg-primary-dark/10 rounded-lg transition-colors w-full sm:w-auto"
-                >
-                  {copiedPhone ? 'Copied!' : 'Copy'}
-                </button>
-              </div>
-
-              {/* Location */}
-              <div className="flex items-center space-x-4 p-4 bg-gray-50 dark:bg-gray-700/50 rounded-lg">
-                <div className="w-12 h-12 bg-primary-light/10 dark:bg-primary-dark/10 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-primary-light dark:text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">Location</p>
-                  <p className="text-gray-900 dark:text-white font-medium">{contactInfo.location}</p>
-                </div>
               </div>
 
               {/* Social Links */}
